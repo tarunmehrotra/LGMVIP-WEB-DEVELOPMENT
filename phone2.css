@@ -1,0 +1,289 @@
+body{
+    background-color:rgb(212, 208, 245);
+}
+.navbar #head1 {
+    padding-right: 19px;
+    padding-left: 28px;
+    font-size: 20px;
+}
+.navbar li {
+    list-style: none;
+    font-size: 15px;
+}
+.navbar::before{
+    content: "";
+    background-image:url("tar1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+.sec1 {
+    text-align: initial;
+    width: 345px;
+    height: 131px;
+    font-size: 20px;
+    position: absolute;
+    top: 156px;
+    left: 168px;
+    color: white;
+}
+.sec-2 #head3 {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 29px;
+    font-weight: bolder;
+}
+.sec-4 {
+    font-size: 19px;
+    font-family: cursive;
+}
+.sec-3 img {
+    height: 200px;
+}
+/* .sec-5 {
+    display: flex;
+    width: 100%;
+    height: 891px;
+    position: relative;
+    top: 57px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.sec-5 .con i {
+    position: relative;
+    left: 22px;
+    top: 20px;
+}
+.sec-5 .btn3:hover {
+    background-color: rgb(17, 17, 100);
+    color: white;
+    padding: 6px;
+}
+.sec-5 .btn3 {
+    padding: 6px;
+    position: relative;
+    right: 0px;
+    top: 10px;
+    background-color: yellow;
+    font-weight: bolder;
+    font-family: cursive;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 1s ease-in-out;
+}
+.sec-5 .btn3:hover {
+    background-color: rgb(17, 17, 100);
+    color: white;
+} */
+.sec6head{
+    text-align: center;
+    
+    font-size: 29px;
+    font-weight: bolder;
+    position: relative;
+    top: 68px;
+}
+
+.sec-6 {
+    width: 100%;
+    height: 1350px;
+    position: relative;
+    top: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sec-6 .box {
+    height: 250px;
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 8px;
+    transition: all 0.6s ease-in-out;
+}
+.sec-7 .boxcon {
+    width: 100%;
+    height: 241px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-7 .sec-7p h1 {
+    position: relative;
+    bottom: 41px;
+}
+
+.sec-7 .box1 h3 {
+    font-size: 18px;
+    margin: 2px;
+}
+.sec-8 .container {
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    top: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134, 48, 134);
+    flex-direction: column;
+}
+.sec-8 .container .box2{
+    width: 60%;
+    height: 450px;
+    margin: 10px;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    border-radius: 20px;
+
+}
+.sec-9 .container .box3:hover {
+    width: 24%;
+    height: 240px;
+}
+
+.sec-9 .container .box3 {
+    width: 20%;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+.sec-12 .box3 .content h2 {
+    text-align: center;
+    line-height: 30px;
+}
+.sec-12 .content p {
+    text-align: center;
+    font-size: larger;
+    font-family: fantasy;
+    font-size: 12px;
+    line-height: 15px;
+}
+.sec-12 .box3 .content button {
+    position: relative;
+    top: 15px;
+    left: 19px;
+    padding: 8px;
+    color: black;
+    font-weight: lighter;
+    cursor: pointer;
+    font-family: fantasy;
+    background-color: yellow;
+    transition: all 0.8s ease-in-out;
+}
+.sec-13 .container button {
+    position: relative;
+    top: 15px;
+    left: 123px;
+    padding: 8px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: cursive;
+    background-color: rgb(67, 67, 196);
+    transition: all 0.2s ease-in-out;
+}
+.sec-14 h3 {
+    text-align: center;
+    line-height: 24px;
+    color: white;
+}
+.sec-14 h3 {
+    text-align: center;
+    line-height: 24px;
+    color: white;
+    font-size: 17px;
+}
+.sec-14 p {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.sec-14 .box1 a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+    
+}
+.sec-14 .box1 a:hover{
+    font-size: 27px;
+}
+
+.sec-5 .con i {
+    position: relative;
+    left: 16px;
+    top: 20px;
+}
+.sec-5 .btn3:hover {
+    background-color: rgb(17, 17, 100);
+    color: white;
+    padding: 6px;
+}
+.sec-5 .btn3 {
+    padding: 6px;
+    position: relative;
+    right: 0px;
+    top: 10px;
+    background-color: yellow;
+    font-weight: bolder;
+    font-family: cursive;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 1s ease-in-out;
+}
+.sec-13 .container{
+    width: 100%;
+    height: 1200px;
+    position: relative;
+   
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    
+    
+}
+.sec-13 .container .map{
+    width: 100%;
+    height: 600px;
+   
+}
+.sec-13 .container .map iframe{
+    width: 100%;
+    height: 600px;
+    
+}
+
+.sec-7 .sec-7p {
+    width: 100%;
+    height: 89px;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    font-size: 29px;
+}
+.sec-7 .box1 {
+    width: 21%;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
